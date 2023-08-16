@@ -247,9 +247,14 @@ button:hover{
 
 @media (min-width: 700px){
     body{
-        padding: 0 200px;
-        width: 100%;
+        padding: 0 165px;
+        width: 1440px;
         margin: 90px auto;
+    }
+
+    .logo{
+        height: 40px;
+        width: 65px;
     }
     
     .menu-icon{
@@ -273,8 +278,8 @@ button:hover{
     .web-img{
         background-image: url("assets/images/image-web-3-desktop.jpg");
         margin: 0;
-        height: 270px;
-        width: 700px;
+        height: 300px;
+        width: 730px;
     }
 
     .main-box__info{
@@ -286,25 +291,45 @@ button:hover{
     }
 
     .main-box__title{
-        font-size: 38px;
-        line-height: 40px;
-        width: 250px;
-    }
-
-    .main-box__text{
-        font-size: 13px;
-        margin: 0;
+        font-size: 54px;
+        line-height: 50px;
         width: 300px;
     }
 
+    .main-box__text{
+        font-size: 15px;
+        margin: 0;
+        width: 350px;
+    }
+
     button{
-        margin: 20px 0 0;
+        font-size: 12px;
+        margin: 40px 0 0;
+        height: 50px;
+        width: 185px;
     }
 
     .news-box{
         margin: 0;
-        height: 430px;
-        width: 340px;
+        height: 510px;
+        width: 350px;
+    }
+
+    .news-box__title{
+        font-size: 34px;
+    }
+
+    .news-box__subTitle{
+        font-size: 20px;
+    }
+
+    .news-box__text{
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .line{
+        margin: 30px 0;
     }
 
     .products{
@@ -314,6 +339,27 @@ button:hover{
         justify-content: space-between;
         gap: 30px;
         margin: 50px 0 0;
+    }
+
+    .PCs, .laptop, .gaming{
+        width: 350px;
+    }
+
+    .PCs__img, .laptop__img, .gaming__img{
+        height: 130px;
+        width: 100px;
+    }
+
+    .PCs__n, .laptop__n, .gaming__n{
+        font-size: 28px;
+    }
+
+    .PCs__info, .laptop__info, .gaming__info{
+        font-size: 18px;
+    }
+
+    .PCs__text, .laptop__text, .gaming__text{
+        font-size: 14px;
     }
 } 
 
