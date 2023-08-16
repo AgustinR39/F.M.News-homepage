@@ -17,6 +17,7 @@
 }
 
 body{
+    background-color: var(--Off-white);
     display: flex;
     flex-direction: column;
     font-family: "inter";
